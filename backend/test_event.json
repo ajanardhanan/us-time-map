@@ -1,0 +1,10 @@
+{
+  "httpMethod": "GET",
+  "path": "/times",
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "queryStringParameters": null,
+  "body": null
+}

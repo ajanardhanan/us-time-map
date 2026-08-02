@@ -1,0 +1,25 @@
+{
+  "name": "us-time-map",
+  "version": "1.0.0",
+  "description": "Serverless US Time Map showing current time across all 50 states",
+  "scripts": {
+    "dev": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "deploy": "./deploy.sh",
+    "sam:build": "sam build",
+    "sam:deploy": "sam deploy",
+    "sam:local": "sam local start-api",
+    "install:frontend": "cd frontend && npm install",
+    "test": "cd frontend && npm test"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "react",
+    "serverless",
+    "time-zones",
+    "us-map"
+  ],
+  "author": "Anil Janardhanan <anilkjanardhan@gmail.com>",
+  "license": "MIT"
+}
